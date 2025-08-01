@@ -21,7 +21,7 @@ let buttonCenterX, buttonCenterY;
 
 function preload() {
   for (let i = 0; i <= imgCount; i++) {
-    imgs.push(loadImage('assets/presencia_' + i + '.png'));
+    imgs.push(loadImage('/assets/presencia_' + i + '.png'));
   }
 }
 
